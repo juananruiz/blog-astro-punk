@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout title={`${post.data.title} — Juanan Ruiz`}>
+  <Header current="post" searchPlaceholder="Buscar y pulsa Enter…" />
+  <main class="wrap">
+    <div class="article-head">
+      <div class="meta"><span>{post.data.categoryLabel}</span><span class="sep"> · </span><span class="date">{post.data.dateLabel}</span>{post.data.readingTime && <><span class="sep"> · </span><span class="date">{post.data.readingTime}</span></>}</div>
+      <h1>{post.data.title}</h1>
+      <p class="dek">{post.data.description}</p>
+    </div>
+    {post.data.image && <div class="article-hero"><div class="plate"><img src={post.data.image.replace('-mini', '')} alt={post.data.imageAlt} /></div></div>}
+    <article class="article-body"><Content /></article>
+    <div class="article-fleuron"><img src="/img/fleuron-horizontal-steampunk.png" alt="" /></div>
+    <div class="author-row"><div class="avatar"><img src="/img/juanan-steampunk.jpg" alt="Juanan Ruiz" /></div><div><p class="name">Juanan Ruiz</p><p class="tagline">Escribiendo sobre código desde el taller, sin prisa.</p></div></div>
+  </main>
+  <Footer />
+</BaseLayout>
