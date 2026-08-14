@@ -292,6 +292,11 @@ blockquote {
   margin: 0 0 var(--space-4); padding: 4px 0 4px 20px; border-left: 2px solid var(--color-accent-700);
   font-family: var(--font-heading); font-style: italic; font-size: 24px; color: var(--color-accent-700);
 }
+/* — notas del vault — */
+.nota-volver { font-family: var(--font-heading); font-size: 17px; margin: 0 0 var(--space-4); }
+.nota-volver a { color: var(--color-neutral-500); }
+.nota-volver a:hover { color: var(--color-accent-700); text-decoration: none; }
+
 .author-row { display: flex; align-items: center; gap: 14px; padding-top: var(--space-2); }
 .author-row .avatar {width: 65px;height: 65px;border-radius: 50%;overflow: hidden;flex: none;}
 .author-row .avatar .img-placeholder { min-height: 0; font-size: 9px; }
