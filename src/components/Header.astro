@@ -1,5 +1,5 @@
 ---
-interface Props { current?: 'home' | 'post' | 'notas'; searchPlaceholder: string }
+interface Props { current?: 'home' | 'post'; searchPlaceholder: string }
 const { current, searchPlaceholder } = Astro.props;
 ---
 
@@ -10,7 +10,6 @@ const { current, searchPlaceholder } = Astro.props;
   </a>
   <nav class="main-nav">
     <a href="/" aria-current={current === 'home' ? 'page' : undefined}>Inicio</a>
-    <a href="/notas" aria-current={current === 'notas' ? 'page' : undefined}>Notas</a>
     <a href="#">Archivo</a>
     <a href="#">Sobre mí</a>
   </nav>
