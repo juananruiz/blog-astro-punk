@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout title="Acerca de este blog — Juanan Ruiz">
+  <Header current="acerca-de" searchPlaceholder="Buscar y pulsa Enter…" />
+  <main class="wrap">
+    <div class="article-head">
+      <h1>Acerca de este blog</h1>
+      <p class="dek">Declaración de intenciones sin más</p>
+    </div>
+    <div class="article-hero"><div class="plate"><img src="/img/meninas-minecraft.webp" alt="Las Meninas recreadas en Minecraft" /></div></div>
+    <article class="article-body">
+      <p>Escribo este blog para que me acompañe en mi proceso de aprendizaje y de descubrimiento de nuevas habilidades y conocimientos.</p>
+      <p>En esta primera etapa quiero centrarme en los descubrimientos que voy haciendo a medida que aprendo a trabajar con la IA, tanto en desarrollo de aplicaciones como en tareas administrativas y organizativas. Creo que lo que voy descubriendo, gracias a otros blogs que leo, vídeos que veo y pódcast que escucho puede ser interesante para otros y un buen recordatorio para mí, así que allá vamos.</p>
+      <p>Por el camino, para no hacerme muy monótono, quizás vaya picoteando en otros temas sobre los que también me documento, aprendo o practico, ya los iremos viendo, pero adelanto que pueden ir desde el cuidado del césped hasta física cuántica.</p>
+    </article>
+  </main>
+  <Footer />
+</BaseLayout>
