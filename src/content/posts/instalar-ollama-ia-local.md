@@ -10,6 +10,7 @@ description: Explica la instalación de Ollama en Mac OS, Windows y Linux, la de
 image: "/img/gemini-llamas-nocturnas.png"
 imageAlt: Imagen de gemini-llamas-nocturnas (generada por IA)
 tags: ["Ollama", "IA"]
+featured: true
 ---
 
 Llevo unos meses corriendo modelos de lenguaje en mi propio portátil con Ollama, y cada vez que se lo enseño a alguien la primera reacción es la misma: _no me imaginaba que fuera tan fácil_. Esta guía es exactamente lo que me hubiera gustado encontrar cuando empecé — una explicación clara para instalarlo en cualquier sistema operativo, los comandos que necesitas y los pequeños tropiezos que casi todo el mundo se encuentra al principio.

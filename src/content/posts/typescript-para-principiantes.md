@@ -6,9 +6,10 @@ categoryLabel: Programación
 date: 2026-07-03
 dateLabel: 3 jul 2026
 order: 1
-image: "/img/Gemini_Escritorio_Vintage_logo_TS.png"
+image: "/img/gemini_escritorio_vintage_logo_ts.webp"
 imageAlt: "Mesa vintage con maquina de escribir y un cuaderno con el logo de TypeScript Generada por IA"
 tags: ["TypeScript", "Lenguajes", "programación"]
+featured: true
 ---
 
 ## ¿Qué es TypeScript?

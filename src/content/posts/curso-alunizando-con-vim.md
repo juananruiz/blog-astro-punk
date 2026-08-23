@@ -6,6 +6,9 @@ categoryLabel: Proyectos
 date: 2026-08-23
 dateLabel: 23 ago 2026
 order: 2
+image: "/img/chatgpt-cohete-vim-a-la-luna.jpg"
+imageAlt: "ChatGPT: un cohete llamdo VIM despega a la luna (imagen generada por IA)"
+featured: true
 ---
 
 Curso lúdico para aprender Vim desde cero. Aborda el aprendizaje de una manera desenfadada evitando el desaliento, permitiendo dominar un editor potente disponible en cualquier sistema operativo.
