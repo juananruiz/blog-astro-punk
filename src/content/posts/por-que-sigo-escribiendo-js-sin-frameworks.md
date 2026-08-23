@@ -27,3 +27,21 @@ No es nostalgia por los noventa. Es preferir herramientas que pueda abrir, enten
 ## Lo que sí uso
 
 Módulos ES nativos, Web Components cuando toca reutilizar, y muy poca dependencia externa. Suficiente engranaje, ningún exceso.
+
+## Prueba de bloque de código en el blog
+
+A ver que tal pinta esto
+
+```typescript
+function resolverWikilinks(texto: string, publicados: Set<string>): string {
+  return texto
+  // Los embeds se quitan primero: si no, WIKILINK casaría con su interior.
+  .replace(EMBED, '')
+  .replace(WIKILINK, (_todo, destino: string, alias?: string) => {
+    const nombre = destino.trim().split('/').pop() ?? '';
+    const etiqueta = (alias ?? nombre).trim();
+    const id = slug(nombre);
+    return publicados.has(id) ? `[${etiqueta}](/notas/${id})` : etiqueta;
+  });
+}
+```
