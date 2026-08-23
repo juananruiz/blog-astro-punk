@@ -7,7 +7,7 @@ const posts = defineCollection({
     title: z.string(),
     searchTitle: z.string().optional(),
     description: z.string(),
-    category: z.enum(['programacion', 'reflexiones', 'proyectos', 'lecturas']),
+    category: z.enum(['programacion', 'reflexiones', 'proyectos', 'lecturas', 'ia']),
     categoryLabel: z.string(),
     date: z.date(),
     dateLabel: z.string(),
