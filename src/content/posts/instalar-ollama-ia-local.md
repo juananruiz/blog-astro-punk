@@ -57,8 +57,7 @@ Hay dos caminos. El más visual:
 1. Abre [https://ollama.com/download](https://ollama.com/download) y descarga `Ollama.dmg`. También hay un comando para pegar en la terminal.
 2. Arrastra Ollama a `Aplicaciones`.
 3. Ábrelo. Te pedirá permiso para instalar la herramienta de línea de comandos.
-
-Requiere macOS 14 Sonora o posterior.
+4. Requiere macOS 14 Sonora o posterior.
 
 ![Captura: ventana de bienvenida de Ollama Desktop en macOS](/img/ollama-desktop-mac.png)
 
