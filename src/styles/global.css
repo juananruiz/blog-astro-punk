@@ -287,6 +287,7 @@ a:hover { color: var(--color-accent); text-decoration: underline; }
 .article-body code { font-size: 15px; }
 .article-body code[class*="language-"], .article-body pre[class*="language-"] { border-radius: var(--radius-sm); }
 .article-body .astro-code { border-radius: var(--radius-md); padding: var(--space-4); margin: 0 0 var(--space-4); overflow-x: auto; }
+.article-body img { max-width: 100%; height: auto; display: block; margin: 0 auto var(--space-4); }
 .article-body .astro-code code { white-space: pre; }
 .article-body p code, .article-body ul code, .article-body ol code { background: var(--color-surface); border-radius: var(--radius-sm); padding: 0.1rem 0.3rem; }
 .article-inline-img { margin: var(--space-2) 0 var(--space-4); }
