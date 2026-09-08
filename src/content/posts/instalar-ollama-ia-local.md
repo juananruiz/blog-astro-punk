@@ -4,7 +4,6 @@ date: 2026-04-26
 dateLabel: 26 abr 2026
 category: ia
 categoryLabel: Inteligencia Artificial
-order: 3
 author: Juanan Ruiz
 description: Explica la instalación de Ollama en Mac OS, Windows y Linux, la descarga de modelos en local y los usos posibles
 image: "/img/gemini-llamas-nocturnas.png"
