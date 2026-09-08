@@ -5,13 +5,12 @@ category: proyectos
 categoryLabel: Proyectos
 date: 2026-08-23
 dateLabel: 23 ago 2026
-order: 2
 image: "/img/chatgpt-cohete-vim-a-la-luna.jpg"
-imageAlt: "ChatGPT: un cohete llamdo VIM despega a la luna (imagen generada por IA)"
+imageAlt: "ChatGPT: un cohete llamado VIM despega hacia la luna (imagen generada por IA)"
 featured: true
 ---
 
-Curso lúdico para aprender Vim desde cero. Aborda el aprendizaje de una manera desenfadada evitando el desaliento, permitiendo dominar un editor potente disponible en cualquier sistema operativo.
+Curso para aprender Vim desde cero. Aborda el aprendizaje de una manera desenfadada, para que no te rindas a la primera y así llegar a dominar uno de los mejores editores disponible en cualquier sistema operativo.
 
 Tienes todo el material del curso en este [repositorio de GitHub](https://github.com/juananruiz/curso_vim/)
 
