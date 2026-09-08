@@ -17,9 +17,10 @@ Campos obligatorios (el esquema está en `src/content.config.ts` y el build fall
 | `categoryLabel` | La etiqueta visible ("Programación") |
 | `date` | Fecha real, sin comillas (`2026-08-10`) |
 | `dateLabel` | El texto que se ve ("10 ago 2026") |
-| `order` | Posición en la portada, **ascendente** |
 
-Opcionales: `searchTitle` (texto alternativo para el buscador), `readingTime`, `featured` (saca miniatura), `image`, `imageAlt`.
+Opcionales: `order` (posición manual en la portada, ascendente; si se omite, el artículo se ordena por `date`, más reciente primero), `tags` (lista de etiquetas libres, ej. `["Git", "programación"]`; alimentan la nube de tags de la portada), `searchTitle` (texto alternativo para el buscador), `readingTime`, `featured` (saca miniatura), `image`, `imageAlt`.
+
+Los artículos con `order` van siempre antes que los que no lo tienen; entre estos últimos manda la fecha.
 
 Dos cosas fáciles de olvidar:
 
