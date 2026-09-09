@@ -1,14 +1,14 @@
 ---
-title: Sistema de Control de Versiones
-description: Qué es un sistema de control de versiones, por qué Git se convirtió en el estándar y qué servicios existen para alojar tus repositorios.
 category: programacion
 categoryLabel: Programación
 date: 2026-09-06
 dateLabel: 6 sept 2026
+description: Qué es un sistema de control de versiones, por qué Git se convirtió en el estándar y qué servicios existen para alojar tus repositorios.
+featured: false
 image: ""
 imageAlt: ""
 tags: ["Git", "Control de versiones", "programación"]
-featured: false
+title: Sistema de Control de Versiones
 ---
 Un sistema de control de versiones es un software que nos permite mantener el histórico de cambios que se van realizando cuando editamos los archivos de un proyecto. Habitualmente se utiliza en proyectos de código. Es una herramienta imprescindible para un desarrollador e inexcusable si en el proyecto participa más de una persona.
 

@@ -1,11 +1,11 @@
 ---
-title: "Anatomía de un push de git"
 category: programacion
 categoryLabel: Programación
 date: 2026-09-06
 dateLabel: 6 sep 2026
 description: ¿Qué son esos mensaje crípticos que aparecen cuando haces un push de git?
 featured: false
+title: "Anatomía de un push de git"
 ---
 
 Si eres desarrollador de código y utilizas git como [sistema de control de versiones](/posts/sistema-control-de-versiones) quizás te haya llamado la atención el mensaje tan "misterioso" que aparece cuando envías los cambios a un repositorio remoto haciendo **push**.

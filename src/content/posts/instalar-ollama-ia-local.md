@@ -1,15 +1,15 @@
 ---
-title: Instalar Ollama y tu IA en local.
-date: 2026-04-26
-dateLabel: 26 abr 2026
+author: Juanan Ruiz
 category: ia
 categoryLabel: Inteligencia Artificial
-author: Juanan Ruiz
+date: 2026-04-26
+dateLabel: 26 abr 2026
 description: Explica la instalación de Ollama en Mac OS, Windows y Linux, la descarga de modelos en local y los usos posibles
+featured: true
 image: "/img/gemini-llamas-nocturnas.png"
 imageAlt: Imagen de gemini-llamas-nocturnas (generada por IA)
 tags: ["Ollama", "IA"]
-featured: true
+title: Instalar Ollama y tu IA en local.
 ---
 
 Llevo unos meses corriendo modelos de lenguaje en mi propio portátil con Ollama, y cada vez que se lo enseño a alguien la primera reacción es la misma: _no me imaginaba que fuera tan fácil_. Esta guía es exactamente lo que me hubiera gustado encontrar cuando empecé — una explicación clara para instalarlo en cualquier sistema operativo, los comandos que necesitas y los pequeños tropiezos que casi todo el mundo se encuentra al principio.
