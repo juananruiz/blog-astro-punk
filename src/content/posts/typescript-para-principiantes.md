@@ -5,7 +5,7 @@ date: 2026-07-03
 dateLabel: 3 jul 2026
 description: Una nueva forma de abordar la escritura de JavaScript con más garantías y con un código más legible. 
 featured: true
-image: "/img/gemini_escritorio_vintage_logo_ts.webp"
+image: "/img/escritorio-typescript-detalle.webp"
 imageAlt: "Mesa vintage con maquina de escribir y un cuaderno con el logo de TypeScript Generada por IA"
 tags: ["TypeScript", "Lenguajes", "programación"]
 title: TypeScript para principiantes

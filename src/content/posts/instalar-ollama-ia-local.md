@@ -6,7 +6,7 @@ date: 2026-04-26
 dateLabel: 26 abr 2026
 description: Explica la instalación de Ollama en Mac OS, Windows y Linux, la descarga de modelos en local y los usos posibles
 featured: true
-image: "/img/gemini-llamas-nocturnas.png"
+image: "/img/gemini-llamas-nocturnas.webp"
 imageAlt: Imagen de gemini-llamas-nocturnas (generada por IA)
 tags: ["Ollama", "IA"]
 title: Instalar Ollama y tu IA en local.
