@@ -5,8 +5,10 @@ category: programacion
 categoryLabel: Programación
 date: 2026-09-12
 dateLabel: 12 sept 2026
-tags: ["repositorio", "git", "github"]
 featured: false
+image: "img/clonando-oveja-en-cordero.webp"
+imageAlt: "Una oveja es clonada en un cordero dentro de una cápsula de cristal - imagen IA"
+tags: ["repositorio", "git", "github"]
 ---
 
 

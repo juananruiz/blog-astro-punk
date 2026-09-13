@@ -5,7 +5,7 @@ date: 2026-08-23
 dateLabel: 23 ago 2026
 description: Curso lúdico para aprender Vim desde cero, evitando el desaliento y dominando un editor potente disponible en cualquier sistema operativo.
 featured: true
-image: "/img/chatgpt-cohete-vim-a-la-luna.jpg"
+image: "/img/chatgpt-cohete-vim-a-la-luna.webp"
 imageAlt: "ChatGPT: un cohete llamado VIM despega hacia la luna (imagen generada por IA)"
 title: "Curso Vim: Alunizando con VIM"
 ---
